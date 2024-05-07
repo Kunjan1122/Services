@@ -1,0 +1,351 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #002379;
+    position: relative;
+    font-family: Montserrat, sans-serif !important;
+}
+.logobar{
+    width: 100%;
+    float: left;
+    background: #002379;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    /* opacity: 0.25; */
+    /* background: url(https://xportsoft.com/custom-ecommerce-development-service/images/header-bg.png) center center/cover no-repeat; */
+}
+.logo-bar::before {
+    max-width: 850px;
+  max-height: 90px;
+    position: absolute;
+    content: '';
+    background: url(https://xportsoft.com/custom-ecommerce-development-service/images/header-bg.png) center center/cover no-repeat;
+    right: 0;
+    z-index: 0;
+    opacity: .25;
+    width: 100%;
+    height: 100%;
+    top: 0;}
+.container{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 0;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col_1{
+    width: 41.666667%;
+    float: left;
+    margin: 12px 0;
+}
+.col_1 img{
+    max-width: 100%;
+    max-height: 75px;
+    float: left;
+}
+.col_2{
+    width: 58.333333%;
+    float: left;
+    /* margin: 25px 0; */
+}
+.col_2 i{
+   font-size: 30px;
+   background: white;
+   color: #002379;
+   padding: 7px 10px;
+border-radius: 5px;
+
+}
+.span{
+    width: 33.33%;
+    float: left;
+    color: white;
+}
+
+.span .sub{
+    margin-top: 25px;
+    margin-right: 10px;
+    width: 20%;
+    float: left;
+}
+.span h4{
+    margin-top: 25px;
+    width: 70%;
+    float: left;
+    font-weight: lighter;
+}
+.span button{
+    margin-top: 25px;
+    background-color: #46c0ec;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    margin-left: 50px;
+    transition:  0.5s ease-out; 
+    background: linear-gradient(to right, #46c0ec 50%, #cd0001 50%);
+    background-size: 200% 100%;
+}
+.span button:hover{
+    background-position: -100% 0;
+}
+
+
+/* banner content  */
+.banner_content{
+    width: 100%;
+    float: left;
+    background: #002379;
+    margin-top: 99px;
+    /* height: 50px; */
+}
+.heading{
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+.heading h1{
+    /* text-align: center; */
+    width: 50%;
+    float: left;
+    font-size: 40px;
+}
+#heading_one{
+    text-align: right;
+    margin-top: 5px;
+    color: white;
+}
+#heading_two{
+    margin-top: 5px;
+    text-align: left;
+    color: red;
+}
+#heading_three{
+    width: 100%;
+    margin-top: -15px;
+    text-align: center;
+    color: #46c0ec;
+}
+/* banner  */
+.banner{
+    width: 100%;
+    float: left;
+    background: rgb(0, 35, 121);
+}
+.banner .image{
+    width: 66.666667%;
+    float: left;
+}
+.banner .image img{
+    width: 98%;
+}
+.banner .form{
+    width: 33.333333%;
+    float: left;
+    background:rgba(70, 192, 236, .2);
+    /* margin-top: ; */
+}
+.form_container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}.form_container h3{
+    color: white;
+    font-weight: lighter;
+}
+.form_container h4{
+    color: #46c0ec;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -15px;
+}
+.title{
+    margin-top: 50px;
+}
+.form button{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    background-color: #46c0ec;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    transition:  0.5s ease-out; 
+    background: linear-gradient(to right, #46c0ec 50%, #cd0001 50%);
+    background-size: 200% 100%;
+}
+.form button:hover{
+    background-position: -100% 0;
+}
+input{
+    margin-top: 10px;
+    width: 82%;
+    padding: 20px;
+}
+textarea{
+    margin-top: 10px;
+    width: 82%;
+    padding: 20px;
+}
+
+/* last  */
+.last{
+    width: 100%;
+    float: left;
+    background-color: #e5f0ff;
+    text-align: center;
+}
+.lines{
+    margin-top: 50px;
+}
+.lines h1{
+    color:rgb(0, 35, 121);
+    font-weight: bold;
+    font-size: 50px;
+}
+.lines h2{
+    margin-top: -38px;
+    color:#cd0001;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.one{
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+color: #002379;
+font-size: 23px;
+justify-content: center;
+}
+.one i{
+margin-right: 5px;
+margin-left: 20px;
+}
+.one div{
+margin-bottom: 20px;
+}
+.down{
+width: 60%;
+margin: auto;
+/* font-size: 20px; */
+margin-top: 25px;
+
+margin-bottom: 130px;
+}
+.down .start{
+width: 60%;
+float: left;
+color: white;
+background-color: #002379;
+}
+.down .contact{
+width: 40%;
+float: left;
+color: white;
+background-color: #cd0001;
+}
+.down a{
+color: white;
+text-decoration: none;
+}
+
+/* skills  */
+
+.skills{
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+.contain{
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+}
+.skill_content{
+    width: 93%;
+    margin: auto;
+}
+.skills h1{
+    font-size: 52px;
+  font-weight: 800;
+  text-align: center;
+  color: #002379;
+}
+.color_red{
+    color: #cd0001;
+}
+.skills p{
+    font-family: Montserrat, sans-serif !important;
+    text-align: center;
+  margin-top: -20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #cd0001;
+}
+.devide{
+    width: 100%;
+    float: left;
+}
+
+.first{
+    width: 33.33%;
+    float: left;
+}
+.left_divs{
+    margin: 50px 0;
+    width: 100%;
+    text-align: right;
+}
+.left_divs h4{
+    color: #002379;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.left_divs p{
+    color: #1b4a63;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.second{
+    width: 33.33%;
+    float: left;
+}
+.second img{
+    width: 100%;
+    margin-top: 170px;
+}
+.third{
+    width: 33.33%;
+    float: left;
+}
+.right_divs{
+    margin: 50px 0;
+    width: 100%;
+}
+.right_divs h4{
+    color: #002379;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 30px;
+}
+.right_divs p{
+    color: #1b4a63;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* request */
+
+

@@ -1,0 +1,213 @@
+@font-face{
+    font-family: Oswald-ExtraLight;
+    src: url(font/Oswald-ExtraLight.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:1300px;
+    padding:0px 25px 0px 25px;
+    margin: auto;
+}
+/* home page*/
+
+h1{
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 0px;
+    margin: 0px;
+    color: wheat;
+    margin-bottom: 20px;
+}
+.Sub_con_1{
+    display:flex;
+    max-width:1300px;
+    flex-wrap: wrap;
+    gap:22px;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* boxes */
+.box{
+    border: 1px  lightgray;
+    /* padding: 10px 50px; */
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    color: rgb(105, 104, 104);
+    box-shadow: 0px 0px 1px 1px lightgray;
+}
+.box:hover{
+    /* box-shadow:0 0 10px wheat ; */
+    cursor: pointer;
+}
+.box h3{
+    font-size: 25px;
+    text-align: center; 
+}
+.box p{
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.products h1{
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(105, 104, 104);
+}
+.image{
+    width: 300px;
+    height: 200px;
+}
+
+#read_more{
+    text-decoration:none; 
+  background-color: white;
+  padding: 5px 10px;
+  color: rgb(105, 104, 104);
+  border: 1px solid lightgray;
+  bottom: 20px;
+    left: 100px;
+    position: absolute;
+}
+
+/* banner */
+.banner{
+    position: relative;
+}
+.banner img{
+    margin-top: 80px;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+.banner h2{
+    position: absolute;
+    top:200px;
+    left:300px;
+    color: rgb(105, 104, 104);;
+    font-size: 80px;
+}
+.banner p{
+    position: absolute;
+    top:180px;
+    left:300px;
+    color: rgb(105, 104, 104);
+    font-size: 40px;
+}
+
+
+
+
+
+/* services page */
+.active {
+    background-color: wheat ;
+    color: rgb(49, 47, 47) ; 
+
+}
+
+/* contact page  */
+
+#contact-form{
+    margin-bottom: 50px;
+}
+.contact{
+    width: 450px;
+    text-align: center;
+    margin-top:  100px;
+}
+.active {
+    background-color: wheat ;
+    color: rgb(49, 47, 47) ; 
+
+}
+input{
+    padding: 10px 20px;
+    width: 400px;
+    font-size: 18px;
+    background-color: wheat;
+    border: none;
+    outline: none;
+    color: rgb(105, 104, 104);
+}
+textarea{
+    padding: 10px 20px;
+    width: 400px;
+    font-size: 20px;
+    resize: none;
+    background-color: wheat;
+    border: none;
+    outline: none;
+    color: rgb(105, 104, 104);
+}
+select{
+    padding: 12px 20px;
+    width: 440px;
+    font-size: 15px;
+
+    margin-bottom: 15px;
+    background-color: wheat;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+}
+#submit-btn{
+    background-color: rgb(105, 104, 104);
+    color: wheat;
+    border: none;
+    outline: none;
+    width: 200px;
+    padding: 10px 20px;
+}
+
+
+/* description */
+
+.div{
+    display:flex;
+       margin: auto;
+   
+       margin-top:100px;
+       width: 1200px;
+           text-align: center;
+   }
+   .description{
+       width: 500px;
+       margin-bottom: 50px;
+       float: left;
+       margin-right: 50px;
+   }
+   #image{
+       width: 600px;
+       height: 400px;
+       margin-bottom: 30px;
+       margin-top: 40px;
+   }
+   .description h3{
+       font-size: 30px;
+   }
+   .description p{
+       font-size: 20px;
+   }
+   #btn{
+    text-decoration: none;
+    background-color: rgb(105, 104, 104);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 60px;
+    margin-top: 20px;
+   }
+  
+
+   /* dashboard page  */
+   
